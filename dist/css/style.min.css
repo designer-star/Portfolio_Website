@@ -1,0 +1,17 @@
+@import url(https://use.typekit.net/uly2abl.css);
+body {
+  width: 99%;
+  background: center center/cover no-repeat;
+  background-image: url(../img/header/bacground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
