@@ -2,7 +2,7 @@
 body {
   width: 99%;
   background: center center/cover no-repeat;
-  background-image: url(../img/header/bacground.jpg);
+  background-image: url(../img/sky.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -14,4 +14,23 @@ body {
 .container {
   width: 60%;
   margin: 0 auto;
+}
+
+.first_window {
+  height: 900px;
+}
+
+h1, h2 {
+  font-family: trajan-color, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #d6b72c;
+  padding: 100px 0 0 0;
+  text-align: center;
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 35px;
+  padding: 5px 0 0 100px;
 }

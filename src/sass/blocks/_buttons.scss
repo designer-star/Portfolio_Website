@@ -1,0 +1,68 @@
+.btn_header{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 25px;
+    cursor: pointer;
+    transition: 1s all;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(53, 14, 14, 0);
+    border: 1px solid rgb(179, 140, 35);
+    box-shadow: 0 2px 24px rgb(214, 183, 44);
+    margin-top: 60px;
+    span{
+        margin-left: 10px;
+        margin-top: 3px;
+        text-align: center;
+        font-family: trajan-color,serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(214, 183, 44);
+        font-size: 16px;
+        letter-spacing: 8.7px;
+        }
+    &:hover{
+        width: 205px;
+        height: 27px;
+        span{
+            transition: 1s all;
+            color: rgb(52, 167, 29);
+            font-size: 19px;
+        }
+    }
+    &_how{
+        margin-top: 80px;
+    }
+    &_buy{
+        margin: 0 auto ;
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+    }
+    &_order{
+        font-size: 20px;
+        font-family: trajan-color,serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(214, 183, 44);
+        font-size: 16px;
+        letter-spacing: 8.7px;
+        &:hover{
+            width: 255px;
+            height: 27px;
+        }
+    }
+    
+}
+.te{
+    &:hover{
+        width: 305px;
+    }
+}
